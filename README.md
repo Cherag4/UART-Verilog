@@ -6,7 +6,7 @@ This project implements a **UART (Universal Asynchronous Receiver Transmitter)**
 
 ## Overview
 
-UART communication does not use a shared clock between transmitter and receiver. To handle clock mismatch and noise, the receiver samples incoming data at **16 times the baud rate**. This oversampling technique allows accurate detection of start bits and data bits by sampling near the center of each bit period.
+UART communication does'nt use a shared clock between transmitter and receiver. To handle clock mismatch and noise, the receiver samples incoming data at **16 times the baud rate**. This oversampling technique allows accurate detection of start bits and data bits by sampling near the center of each bit period.
 
 This project follows a commonly used **industry-standard UART receiver design approach**.
 
